@@ -20,4 +20,4 @@ def predict(request: PredictionRequest):
     Analyse le sentiment du texte fourni et retourne un label + score.
     """
     # Appel de la logique métier dans la classe SentimentModel
-    return model.predict(request.text)
+    return model.predict(request.text)# test pipeline second build
